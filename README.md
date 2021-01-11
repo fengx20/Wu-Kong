@@ -13,7 +13,8 @@
 #### 关闭背景音乐
 用户进入APP伴随有符合主题的背景音乐，用户可关闭。
 ## 界面
-![](https://cdn.jsdelivr.net/gh/fengx20/cdn/img/githubimg/android1-1.png)
-![](https://cdn.jsdelivr.net/gh/fengx20/cdn/img/githubimg/android1-2.png)
-![](https://cdn.jsdelivr.net/gh/fengx20/cdn/img/githubimg/android1-3.png)
-![](https://cdn.jsdelivr.net/gh/fengx20/cdn/img/githubimg/android1-4.png)
+
+<img src="https://cdn.jsdelivr.net/gh/fengx20/cdn/img/githubimg/android1-1.png" width="60px" />
+<img src="https://cdn.jsdelivr.net/gh/fengx20/cdn/img/githubimg/android1-2.png" width="60px" />
+<img src="https://cdn.jsdelivr.net/gh/fengx20/cdn/img/githubimg/android1-3.png" width="60px" />
+<img src="https://cdn.jsdelivr.net/gh/fengx20/cdn/img/githubimg/android1-4.png" width="60px" />
