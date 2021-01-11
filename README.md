@@ -14,7 +14,7 @@
 用户进入APP伴随有符合主题的背景音乐，用户可关闭。
 ## 界面
 
-<img src="https://cdn.jsdelivr.net/gh/fengx20/cdn/img/githubimg/android1-1.png" width="60px" />
-<img src="https://cdn.jsdelivr.net/gh/fengx20/cdn/img/githubimg/android1-2.png" width="60px" />
-<img src="https://cdn.jsdelivr.net/gh/fengx20/cdn/img/githubimg/android1-3.png" width="60px" />
-<img src="https://cdn.jsdelivr.net/gh/fengx20/cdn/img/githubimg/android1-4.png" width="60px" />
+<img src="https://cdn.jsdelivr.net/gh/fengx20/cdn/img/githubimg/android1-1.png" width="150px" />&nbsp;&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/fengx20/cdn/img/githubimg/android1-2.png" width="150px" />&nbsp;&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/fengx20/cdn/img/githubimg/android1-3.png" width="150px" />&nbsp;&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/fengx20/cdn/img/githubimg/android1-4.png" width="150px" />
+
+
+
