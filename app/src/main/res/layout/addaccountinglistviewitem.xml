@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_mainlistviewitem_out"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textColor="@color/colorWhite"
+            android:paddingRight="4dp"
+            android:paddingTop="18dp"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_line_up"
+                android:layout_width="2dp"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="#84bc5f" />
+
+            <ImageView
+                android:id="@+id/img_center"
+                android:layout_width="25dp"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+
+                android:layout_weight="1"
+                android:src="@drawable/round" />
+
+            <ImageView
+                android:id="@+id/img_line_down"
+                android:layout_width="2dp"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="#84bc5f" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tv_mainlistviewitem_in"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="4dp"
+            android:paddingTop="18dp"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+</LinearLayout>

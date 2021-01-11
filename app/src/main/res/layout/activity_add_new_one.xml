@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lz6"
+    android:orientation="vertical"
+    tools:context="com.example.xie.moneymanager.AddNewOne">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+        <ImageButton
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fanhui"/>
+
+            <TextView
+                android:id="@+id/tv_choosedate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text=""
+                android:gravity="center"
+                android:textColor="@color/colorWhite"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:textSize="20dp"/>
+    </android.support.v7.widget.Toolbar>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#7f363636"/>
+
+    <TabHost
+        android:id="@+id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:background="@color/colorWhite"
+                android:layout_height="40dp">
+            </TabWidget>
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <!-- 第一个tab的布局 -->
+                <LinearLayout
+                    android:id="@+id/lv_tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="405dp"
+                    android:orientation="vertical">
+                    <include layout="@layout/tab_out" />
+                </LinearLayout>
+                <!-- 第二个tab的布局 -->
+                <LinearLayout
+                    android:id="@+id/lv_tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="430dp" >
+                    <include layout="@layout/tab_in" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+    <Button
+        android:id="@+id/btn_addnewone_submit"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="O K"
+        android:background="@drawable/imagebtn_selector"
+        android:textSize="30dp"/>
+
+</android.support.v7.widget.LinearLayoutCompat>

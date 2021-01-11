@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/lz1"
+    tools:context="com.example.xie.moneymanager.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <Button
+            android:id="@+id/bt_play"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/music"
+            android:gravity="center"
+            android:layout_marginLeft="320dp"
+            />
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/lv_mainmenu"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="120dp"
+        android:divider="@color/colorRed"
+        >
+    </ListView>
+</android.support.v7.widget.LinearLayoutCompat>
